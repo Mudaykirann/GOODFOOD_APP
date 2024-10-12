@@ -1,0 +1,47 @@
+@media screen and (max-width:845px) {
+    html {
+        overflow-x: hidden;
+    }
+
+    .container {
+        max-width: 100%;
+    }
+
+    input[type='text'] {
+        width: 500px;
+    }
+
+    .navs {
+        width: 100%;
+    }
+
+    .regular-navbar {
+        width: 100%;
+    }
+
+    .floating-number {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    input[type='text'] {
+        width: 270px;
+    }
+
+    #hamburger {
+        display: block;
+    }
+
+    #buttons {
+        display: none;
+    }
+
+    #m-buttons {
+        display: block;
+        position: absolute;
+        right: 0;
+        background: #FAFAFA;
+        width: 120px;
+    }
+}
